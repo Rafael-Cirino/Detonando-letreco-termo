@@ -1,0 +1,12 @@
+{
+    "title": {
+        "text": "Detonando term.ooo",
+        "bg": "#6E5C62",
+        "background": "#6e5c5c",
+        "font": "Arial 22 bold",
+        "bd": "10",
+        "relief": "groove",
+        "width": 30,
+        "height": 2
+    }
+}
