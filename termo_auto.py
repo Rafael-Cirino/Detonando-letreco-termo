@@ -52,7 +52,7 @@ def termo_jogo(modo):
 
 
 if __name__ == "__main__":
-    rodadas = 10000
+    rodadas = 100
     tx_sucesso, tentativa_sucesso = 0, 0
     for i in range(rodadas):
         resultado = termo_jogo("aut_estat")
