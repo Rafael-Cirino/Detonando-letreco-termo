@@ -62,3 +62,10 @@ As palavras podem ser retiradas seguindo alguns critérios:
 
 O código contido em **termo_auto.py** testa a lógica de encontrar a palavra correta para n tentativas, abaixo se encontra os resultados destes testes:
 
+| **n tentativas** 	| **% de acerto** 	| **Média de tentativas até acertar** 	|
+|------------------	|:---------------:	|:-----------------------------------:	|
+| 10               	|       100%      	|                 4,3                 	|
+| 100              	|       95%       	|                 3,87                	|
+| 1000             	|      95,1%      	|                 3,76                	|
+| 10000            	|      95,6%      	|                 3,76                	|
+
