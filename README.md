@@ -1,4 +1,4 @@
-# Detonando letreco termo
+# Detonando letreco e termo
     Código que resolve os jogos de palavra Letreco e Termo
 
 [Vídeo demonstrativo de como jogar](https://youtu.be/2jWZJN17IqY)
@@ -59,3 +59,6 @@ As palavras podem ser retiradas seguindo alguns critérios:
 - Remove todas as palavras que contém ao menos uma **letra cinza** da lista de bloqueio, que são aquelas que com certeza não estão na palavra final
 
 ## Resultados
+
+O código contido em **termo_auto.py** testa a lógica de encontrar a palavra correta para n tentativas, abaixo se encontra os resultados destes testes:
+

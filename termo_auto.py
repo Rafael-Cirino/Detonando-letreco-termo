@@ -52,7 +52,7 @@ def termo_jogo(modo):
 
 
 if __name__ == "__main__":
-    rodadas = 300
+    rodadas = 10000
     tx_sucesso, tentativa_sucesso = 0, 0
     for i in range(rodadas):
         resultado = termo_jogo("aut_estat")
@@ -64,5 +64,5 @@ if __name__ == "__main__":
         else:
             print(f"{i}: {resultado[1]} -> palavra não encontrada: {resultado[2]}\n")
 
-    print(f"\nMédia de sucesso: {tx_sucesso/rodadas}")
+    print(f"\nMédia de sucesso: {(tx_sucesso/rodadas)*100} %")
     print(f"Média de tentativa: {tentativa_sucesso/tx_sucesso}")
