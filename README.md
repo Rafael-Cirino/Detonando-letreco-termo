@@ -40,7 +40,7 @@ A interface é exatamente como demonstrado na imagem abaixo, para utilizar o app
 [Neste link](https://youtu.be/2jWZJN17IqY) tem um vídeo demonstrativo de como jogar
 
 <figure>
-    <img src="/Image/Interface.PNG"
+    <img src="Image/Interface.PNG"
          alt="Interface"
          height="350">
     <figcaption>Uma demonstração da interface do app</figcaption>
