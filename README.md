@@ -31,10 +31,10 @@ A interface é exatamente como demonstrado na imagem abaixo, para utilizar o app
 
 1. Clicar no botão **ENTER**
 2. A palavra gerada aleatóriamente irá aparecer, digitar ela no Letreco ou termo
-    a. Caso a palavra não seja encontrada, pode clicar no botão **TROCAR PALAVRA**
+    1. Caso a palavra não seja encontrada, pode clicar no botão **TROCAR PALAVRA**
 3. Depois de digitar a palavra no Letreco ou Termo e visualizar quais são as posições da palavra.
-    a. Caso amarelo, de **1 clique** na letra para ela ficar em **AMARELO**, significando que está na palavra final, só não se sabe a posição.
-    b. Caso verde, de **2 cliques** na letra para ela ficar em **VERDE**, significando que está na palavra final e nesta posição.
+    1. Caso amarelo, de **1 clique** na letra para ela ficar em **AMARELO**, significando que está na palavra final, só não se sabe a posição.
+    2. Caso verde, de **2 cliques** na letra para ela ficar em **VERDE**, significando que está na palavra final e nesta posição.
 4. Após passar o gabarito para o app, seguir do passo 1 novamente até encontrar a palavra.
 
 [Neste link](https://youtu.be/2jWZJN17IqY) tem um vídeo demonstrativo de como jogar
