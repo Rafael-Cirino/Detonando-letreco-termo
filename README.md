@@ -46,3 +46,16 @@ A interface é exatamente como demonstrado na imagem abaixo, para utilizar o app
     <figcaption>Uma demonstração da interface do app</figcaption>
 </figure>
 
+## Lógica
+
+Na pasta Banco de palavras, há o arquivo original com todas as palavras da lingua portuguesa e o código utilizado para separar somente as que contém 5 letras e tratar elas: removendo repetições, deixando todas em minusculo e removendo caracteres especiais e acentos. Com isso temos 9983 palavras.
+
+Com o banco de palavras formado a cada tentativa será fornecido uma palavra aleatória deste banco, retirando aquelas palavras via regex, que não tem chance nenhuma de ser a palavra do dia, desse modo, o banco de palavras inicial vai reduzindo até encontrar a palavra final.
+
+As palavras podem ser retiradas seguindo alguns critérios:
+
+- Todas as palavras que não contém as **letras verdes** nas suas repectivas posições
+- Todas as palavras que contém as **letras amarelas** na posições que já é de conhencimento que não se encontram, e removendo palavras que não as contenham
+- Remove todas as palavras que contém ao menos uma **letra cinza** da lista de bloqueio, que são aquelas que com certeza não estão na palavra final
+
+## Resultados
