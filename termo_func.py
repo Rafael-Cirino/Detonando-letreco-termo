@@ -9,7 +9,7 @@ def word_br():
         [string] -- [palavra escolhida aleatóriamente na lista]
         [list] -- [lista com todas as palavras de 5 letras da lingua pt-br]
     """
-    txt_open_read = open("Banco de palavras/palavras_termo2.txt", "r", encoding="utf8")
+    txt_open_read = open("Banco de palavras/palavras_final.txt", "r", encoding="utf8")
     list_words = txt_open_read.readlines()
 
     # Removendo os "\n"
