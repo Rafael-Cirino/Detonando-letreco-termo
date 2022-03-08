@@ -18,7 +18,7 @@ for linha in list_words:
 
 print(len(list_words))
 
-with open('Banco de palavras/json_words2.json', 'w') as outfile:
+with open('Banco de palavras/json_words.json', 'w') as outfile:
     json.dump(list_json, outfile)
 
 txt_open_write.close()
