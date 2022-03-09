@@ -4,10 +4,10 @@
 [Vídeo demonstrativo de como jogar](https://youtu.be/2jWZJN17IqY)
 
 ## Objetivo
-Asistindo as lives do [Casimiro](https://www.youtube.com/c/CortesdoCasimitoOFICIAL) jogando [Letreco](https://www.gabtoschi.com/letreco/) e [Termo](https://term.ooo/), pensei por que não fazer um código que resolve estes jogos. Deixando bem claro que o objetivo aqui não é trapacear, mas desenvolver a lógica de programação
+Asistindo as lives do [Casimiro](https://www.youtube.com/c/CortesdoCasimitoOFICIAL) jogando [Letreco](https://www.gabtoschi.com/letreco/) e [Termo](https://term.ooo/), pensei por que não fazer um código que resolve estes jogos. Deixo bem claro aqui que o objetivo não é trapacear, mas desenvolver lógica e conhecimentos de programação.
 
 ## Sobre os jogos
-Os dois jogos são similares, todo dia eles lançam uma palavra nova que contém 5 letras e o objetivo do jogador é encontrar a palavra daquele dia em até 6 tentativas. Conforme o jogador vai arriscando qual é a palavra do dia, o sistema vai fornecer qual letra da palavra está na posição correta **(VERDE)** e qual está na palavra, mas não na posição certa **(AMARELO)** 
+Os dois jogos são similares, todo dia eles lançam uma nova palavra que contém 5 letras e o objetivo do jogador é encontrar a palavra daquele dia em até 6 tentativas. Conforme o jogador vai arriscando qual é a palavra do dia, o sistema vai fornecer qual letra da palavra está na posição correta **(VERDE)** e qual está contida na palavra, mas não na posição certa **(AMARELO)** 
 
 ## Requirements
     python 3+
@@ -48,7 +48,7 @@ A interface é exatamente como demonstrado na imagem abaixo, para utilizar o app
 
 ## Lógica
 
-Na pasta Banco de palavras, há o arquivo original com todas as palavras da lingua portuguesa e o código utilizado para separar somente as que contém 5 letras e tratar elas: removendo repetições, deixando todas em minusculo e removendo caracteres especiais e acentos. Com isso temos 9984 palavras.
+Na pasta Banco de palavras, há o arquivo original com todas as palavras da lingua portuguesa e o código utilizado para separar somente as que contém 5 letras e tratar elas: removendo repetições, deixando todas em minusculo e removendo caracteres especiais e acentos. Com isso temos 5428 palavras.
 
 Com o banco de palavras formado a cada tentativa será fornecido uma palavra aleatória deste banco, retirando aquelas palavras via regex, que não tem chance nenhuma de ser a palavra do dia, desse modo, o banco de palavras inicial vai reduzindo até encontrar a palavra final.
 
